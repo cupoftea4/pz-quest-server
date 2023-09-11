@@ -10,14 +10,13 @@ import {
   getPointsForCheating, 
   getTeam, 
   hasWon, 
-  logAnswer,
-  logWinners, 
   newTeam, 
   saveTeamChanges, 
   updateTasks, 
   validateTeamName 
 } from "./team";
 import { existsSync, mkdirSync } from "fs";
+import { logAnswer, logWinners } from "./log";
 
 type TaskResponse = {
   tasks: { 
@@ -72,7 +71,8 @@ app.post("/check-answer", (req: Request, res: Response) => {
     const isLastLevel = team.currentTask === TASKS_COUNT;
     team.score += isSimple ? 10 : isLastLevel ? 50 : 20;
 
-    logAnswer(teamName, team.currentTask, answer, team.score);
+    const taskId = isSimple ? team.simpleTasks[team.currentTask - 1] : team.hardTasks[team.currentTask - 1];
+    logAnswer(teamName, taskId, answer, team.score);
 
     if (team.currentTask === TASKS_COUNT) {
       logWinners(teamName, team.score);

@@ -28,26 +28,6 @@ export const hasWon = (data: Team): boolean => {
   return data.currentTask - 1 === TASKS_COUNT;
 };
 
-export const logAnswer = (teamName: string, taskId: number, answer : string, score: number) => {
-  const logEntry = `[${new Date().toISOString()}] name: ${teamName} taskId: ${taskId} answer: ${answer} totalScore: ${score}\n`;
-  
-  fs.appendFile("AnswersLog.txt", logEntry,  (err)=>{
-    if (err) {
-      console.error(`Error while trying to log: ${err}`);
-    }
-  });
-}
-
-export const logWinners = (teamName: string, score: number) => {
-  const logEntry = `[${new Date().toISOString()}] name: ${teamName} finalScore: ${score}\n`;
-  
-  fs.appendFile("WinnersLog.txt", logEntry,  (err)=>{
-    if (err) {
-      console.error(`Error while trying to log: ${err}`);
-    }
-  });
-}
-
 export const getCurrentTasks = (data: Team): { simple: TaskDTO, hard: TaskDTO} => {
   const taskIndex = data.currentTask - 1;
   const simpleTaskId = data.simpleTasks[taskIndex];
