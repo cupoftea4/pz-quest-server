@@ -20,12 +20,12 @@ export const newTeam = (teamName: string): Team => {
 export const checkAnswer = (data: Team, answer: string, isSimple: boolean): boolean => {
   const userTasks = isSimple ? data.simpleTasks : data.hardTasks;
   const currentTask = tasks[userTasks[data.currentTask - 1]];
-  console.log("Checking answer for " + data.name + " " + answer, currentTask.answer);
-  return currentTask.cantBeAutoChecked || compareToHash(generateHash(currentTask.answer), answer.toLowerCase());
+  console.log("Checking answer for " + data.name + " " + answer, currentTask.answers);
+  return currentTask.answers.some(ans => ans.toLowerCase() === answer.toLowerCase());
 };
 
 export const hasWon = (data: Team): boolean => {
-  return data.currentTask === TASKS_COUNT;
+  return data.currentTask - 1 === TASKS_COUNT;
 };
 
 export const logAnswer = (teamName: string, taskId: number, answer : string, score: number) => {
@@ -58,7 +58,7 @@ export const getCurrentTasks = (data: Team): { simple: TaskDTO, hard: TaskDTO} =
 };
 
 export const getTeam = (teamName: string): Team => {
-  const data = readFileSync(teamFile(teamName));
+  const data = readFileSync(teamFile(teamName));;
   const team = JSON.parse(data.toString()) as Team;
   return team;
 };

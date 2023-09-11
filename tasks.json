@@ -1,80 +1,743 @@
 {
   "1": {
-    "question": "Convert 1011 to decimal",
-    "answer": "11",
-    "level": 1
+    "question": "Зробіть фото в проході між 1 та 4 корпусом",
+    "answers": [""],
+    "cantBeAutoChecked": false,
+    "level": 2
   },
   "2": {
-    "question": "Convert 14 to binary",
-    "answer": "1110",
+    "question": "Яка це структура даних?",
+    "answers": ["стек"],
     "level": 1,
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/IOS_14_Logo.png"
+    "picture": "https://www.scaler.com/topics/images/stack-in-c-thumbnail-image.webp"
   },
   "3": {
-    "question": "Make a photo of your pet",
-    "answer": "",
-    "cantBeAutoChecked": true,
-    "level": 2,
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/IOS_14_Logo.png"
+    "question": "Яка це структура даних?",
+    "answers": ["дерево"],
+    "level": 1,
+    "picture": "https://miro.medium.com/v2/resize:fit:1400/1*QUMW3wwbTJmMSI_VZB8fxQ.jpeg"
   },
-  "4": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "assembler",
-    "level": 2,
-    "picture": "/images/languages/1.png"
+  "4": {  
+    "question": "Яка це структура даних? A: {13, 6 ,56 ,3} B: {5,13,56,3} С: {55,2,0,12}",
+    "answers": ["множини", "множина", "set", "sets"],
+    "level": 1
   },
   "5": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "c#",
+    "question": "Яка це структура даних?",
+    "answers": ["масив"],
     "level": 1,
-    "picture": "/images/languages/2.png"
+    "picture": "https://www.tutorialspoint.com/computer_programming/images/array_presentation.jpg"
   },
   "6": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "c++",
+    "question": "Яка це структура даних?",
+    "answers": ["зв'язний список", "однозв'язний список", "список", "linked list", "звязний список", "list"],
     "level": 1,
-    "picture": "/images/languages/3.png"
+    "picture": "https://media.geeksforgeeks.org/wp-content/uploads/20220818165826/LLdrawio.png"
   },
   "7": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "go",
+    "question": "Що виведеться в результаті виконання коду?",
+    "answers": ["12209"],
     "level": 2,
-    "picture": "/images/languages/4.png"
+    "picture": "https://imgur.com/yqoQIzd"
   },
   "8": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "java",
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["python", "пайтон"],
     "level": 1,
-    "picture": "/images/languages/5.png"
+    "picture": "https://imgur.com/KCYvQO3"
   },
   "9": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "lua",
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["ruby", "рубі"],
     "level": 2,
-    "picture": "/images/languages/6.png"
+    "picture": "https://imgur.com/MSvJwRd"
   },
   "10": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "python",
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["C++", "cpp"],
     "level": 1,
-    "picture": "/images/languages/7.png"
+    "picture": "https://imgur.com/xjv7RpU"
   },
   "11": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "ruby",
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["lua"],
     "level": 2,
-    "picture": "/images/languages/8.png"
+    "picture": "https://imgur.com/h8P4SH8"
   },
   "12": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "rust",
-    "level": 2,
-    "picture": "/images/languages/9.png"
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["c#", "csharp"],
+    "level": 1,
+    "picture": "https://imgur.com/G1Nhcrd"
   },
   "13": {
-    "question": "Вгадай мову по фрагменту коду.",
-    "answer": "scala",
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["java"],
+    "level": 1,
+    "picture": "https://imgur.com/oG0VRgp"
+  },
+  "14": {
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["assembler", "asm"],
+    "level": 1,
+    "picture": "https://imgur.com/5rsFRiN"
+  },
+  "15": {
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["go", "golang"],
     "level": 2,
-    "picture": "/images/languages/10.png"
+    "picture": "https://imgur.com/4ChrsE0"
+  },
+  "16": {
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["scala"],
+    "level": 2,
+    "picture": "https://imgur.com/fRHNn2q"
+  },
+  "17": {
+    "question":"Вгадай мову по фрагменту коду",
+    "answers": ["rust"],
+    "level": 2,
+    "picture": "https://imgur.com/AJVd2el"
+  },
+  "18": {
+    "question": "Вгадай мову по фрагменту коду",
+    "answers": ["php", "пхп"],
+    "level": 1,
+    "picture": "https://imgur.com/U1rRfkC"
+  },
+  "19": {
+    "question": "Програміст який писав розклад сплутав кодування та тепер всі назви кабінетів та корпусів зашифровані в двійковій та вісімковій системах числення, розшифруйте номер аудиторії 501 ауд. 0001 кр.",
+    "answers": ["321 aуд 1 кр", "321 1", "321 аудиторія 1 корпус"],
+    "level": 2
+  },
+  "20": {
+    "question": "Перетворіть в десяткову систему число 1000001100011010",
+    "answers": ["33562", "33 562"],
+    "level": 1
+  },
+  "21": {
+    "question": "Перетворіть в десяткову систему число #FA8334",
+    "answers": ["16417588", "16 417 588"],
+    "level": 1
+  },
+  "22": {
+    "question": "Лабораторні можуть бути простими, а ось звіти не завжди, напишіть вимоги до звіту в такому порядку назва шрифту, його розмір та міжрядковий інтервал всі ці параметри вказуються через пробіл, наприклад: montserrat 11 0.5",
+    "answers": ["times new roman 14 1.5", "times new roman 14 1,5"],
+    "level": 1,
+    "picture": "https://imgur.com/uq2UrPR"
+  },
+  "23": {
+    "question": "Лабораторні можуть бути простими, а ось звіти не завжди, напишіть вимоги до звіту в такому порядку назва шрифта, його розмір, міжрядковий інтервал, відступи в мм. (ліво, право, верх, низ), тип вирівнювання всі ці параметри вказуються через пробіл, наприклад: montserrat 11 0.5 і т.д.",
+    "answers": ["times new roman 14 1.5 30 10 20 20 за шириною", "times new roman 14 1,5 30 10 20 20 за шириною"],
+    "level": 2,
+    "picture": "https://imgur.com/uq2UrPR"
+  },
+  "24": {
+    "question": "Розгадай загадане слово",
+    "answers": ["наука"],
+    "level": 2,
+    "picture": "https://imgur.com/a/C7CX8Fy"
+  },
+  "25": {
+    "question": "Розгадай загадане слово",
+    "answers": ["квасоля"],
+    "level": 1,
+    "picture": "https://imgur.com/a/JHG60yi"
+  },
+  "26": {
+    "question": "В якому рядку цього коду є помилка?",
+    "answers": ["8", "восьмому"],
+    "level": 2,
+    "picture": "https://imgur.com/ez6M2vJ"
+  },
+  "27":{
+    "question": "Що буде результатом виконання операції 'push' на стеку, якщо він вже заповнений?",
+    "answers": ["Stack Overflow", "Переповнення стеку"],
+    "level": 2
+  },
+  "28": {
+    "question": "Який буде результат операції '7'+'1'  в JavaScript?",
+    "answers": ["71"],
+    "level": 1
+  },
+  "29": {
+    "question": "Що виведе цей код?",
+    "answers": ["15"],
+    "level": 2,
+    "picture": "https://i.imgur.com/FLrRIVz.png"
+  },
+  "30": {
+    "question": "з якого шістнадцяткового числа починається будь-який java .class файл?",
+    "answers": ["CAFEBABE", "0xCAFEBABE"],
+    "level": 2
+  }, 
+  "31": {
+    "question": "Розшифруйте дану абревіатуру ?\n HTTP",
+    "answers": ["HyperText Transfer Protocol"],
+    "level": 1
+  },
+  "32":  {
+    "question": "Розшифруйте дану абревіатуру ?\n IDE",
+    "answers": ["Integrated Development Environment"],
+    "level": 1
+  },
+  "33":  {
+    "question": "Розшифруйте дану абревіатуру ?\n URL",
+    "answers": ["Universal Resource Locator"],
+    "level": 1
+  },
+  "34":  {
+    "question": "Розшифруйте дану абревіатуру ?\n HTML",
+    "answers": ["HyperText Markup Language"],
+    "level": 1
+  },
+  "35": {
+    "question": "Розшифруйте дану абревіатуру ?\n CSS",
+    "answers": ["Cascading Style Sheets"],
+    "level": 1
+  },
+  "36": {
+    "question": "Розшифруйте дану абревіатуру ?\n DRY",
+    "answers": ["Don't Repeat Yourself"],
+    "level": 1
+  },
+  "37": {
+    "question": "Розшифруйте дану абревіатуру ?\n OOP",
+    "answers": ["Object Oriented Programming"],
+    "level": 1
+  },
+  "38": {
+    "question": "Розшифруйте дану абревіатуру ?\n SOLID",
+    "answers": ["Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion"],
+    "level": 2
+  },
+  "39": {
+    "question": "Розшифруйте дану абревіатуру ?\n SQL",
+    "answers": ["Structured Query Language"],
+    "level": 2
+  },
+  "40": {
+    "question": "Розшифруйте дану абревіатуру ?\n JSON",
+    "answers": ["JavaScript Object Notation"],
+    "level": 1
+  },
+  "41": {
+    "question": "Розшифруйте дану абревіатуру ?\n API",
+    "answers": ["Application Programming Interface"],
+    "level": 1
+  },
+  "42": {
+    "question": "Що означає це сленгове слово ?\n Дрова",
+    "answers": ["драйвери", "драйвер", "drivers", "driver", "драйвера"],
+    "level": 1
+  },
+  "43": {
+    "question": "Що означає це сленгове слово ?\n Конфа",
+    "answers": ["конфігурація", "конфіг", "config", "configuration", "конференція"],
+    "level": 1
+  },
+  "44": {
+    "question": "Що означає це сленгове слово ?\n Веслярі",
+    "answers": ["програмісти", "програміст", "programmers", "programmer", "працівники галери"],
+    "level": 1
+  },
+  "45": {
+    "question": "Що означає це сленгове слово ?\n Дезігнер",
+    "answers": ["дизайнер", "designer", "дизайн", "design"],
+    "level": 1
+  },
+  "46": {
+    "question": "Що означає це сленгове слово ?\n Цегла",
+    "answers": ["Непрацюючий пристрій"],
+    "level": 2
+  },
+  "47": {
+    "question": "Що означає це сленгове слово ?\n Лінк",
+    "answers": ["Посилання"],
+    "level": 1
+  },
+  "48": {
+    "question": "Що означає це сленгове слово ?\n Мило",
+    "answers": ["Електронна пошта", "email", "e-mail"],
+    "level": 1
+  },
+  "49": {
+    "question": "Якою мовою програмування оперує Unreal Engine?",
+    "answers": ["c++", "cpp"],
+    "level": 1
+  },
+  "50": {
+    "question": "Якою мовою програмування оперує Unity?",
+    "answers": ["c#", "csharp"],
+    "level": 1
+  },
+  "51": {
+    "question": "Якою мовою програмування оперує Godot?",
+    "answers": ["c++", "cpp"],
+    "level": 2
+  },
+  "52": {
+    "question": "Кодзіма геній?",
+    "answers": ["так", "так!", "так!!!"],
+    "level": 1
+  },
+  "53": {
+    "question": "Яким оператором можна перевірити, чи змінна 'x' є більшою або рівною 10 в мові програмування Python?",
+    "level": 1,
+    "answers": [
+      "==",
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "!=",
+      "is"
+    ]
+  },
+  "54": {
+    "question": "Яка є приблизна місткість стандартного CD-ROM диска в мегабайтах?",
+    "answers": [
+      "700 МБ",
+      "650МБ",
+      "600МБ"
+    ],
+    "level": 3
+  },
+  "55": {
+    "question": "Як називаються віруси, середовищем створення яких є файли з розширенням .doc, .xls, тощо?",
+    "answers": ["макровірус", "макровіруси"],
+    "level": 2
+  },
+  "56": {
+    "question":  "Яке максимальне значення для кольору в колірному просторі RGB ", 
+    "level": 1,
+    "answers": ["255"]
+  },
+  "57": {
+    "question": "Що виведе наступний виклик функції printf(\"%c\",(char)65+44); ?",
+    "answers": ["l"],
+    "level": 2
+  },
+  "58": {
+    "question": "Як називається функція, що є стартовою точкою в програму на мові C?",
+    "answers": ["main()", "main"],
+    "level": 1
+  },
+  "59": {
+    "question": "Перша об'єктно-орієнтована мова програмування?",
+    "answers": ["simula", "сімула"],
+    "level": 2
+  },
+  "60": {
+    "question": "Для чого може бути використана ця функція?\nbool f(int n) { return (!(n & 1)); }\n A: Для перевірки числа n на парність\n B: Піднесення числа n в перший степінь\n C: Для знаходження субфакторіалу числа n",
+    "answers": ["Для перевірки числа n на парність", "a", "а"],
+    "level": 2
+  },
+  "61": {
+    "question": "Що буде виведено на екран?\nint main() { int a = 5, b = 10, c = 15; printf(\"%d\", a+++b+++c); return 0; }",
+    "answers": ["30"],
+    "level": 2
+  },
+  "62": {
+    "question": "Народна назва аутсорс-компанії?",
+    "answers": ["галера"],
+    "level": 1
+  },
+  "63": {
+    "question": "Особливість, унікальна характеристика чи функціонал",
+    "answers": ["фіча", "фічі", "feature"],
+    "level": 1
+  },
+  "64": {
+    "question": "Що таке баг?",
+    "answers": ["помилка", "помилки"],
+    "level": 1
+  },
+  "65": {
+    "question": "Як зветься міт в якому сидять ті, хто отримує зарплату, так ніби він працює, але він просто чекає, коли йому дадуть проект в аутсорсі",
+    "answers": ["бенч"],
+    "level": 2
+  },
+  "66": {
+    "question": "Яке число в десятковій системі відповідає двійковому числу 1101010?",
+    "answers": ["106"],
+    "level": 1
+  },
+  "67": {
+    "question": "Яке число в десятковій системі відповідає шістнадцятковому числу F?",
+    "answers": ["15"],
+    "level": 1
+  },
+  "68": {
+    "question": "Який алгоритм сортування поданий нижче?",
+    "answers": ["Bubble Sort", "Сортування бульбашкою"],
+    "picture": "https://imgur.com/fxmf67T",
+    "level": 2
+  },
+  "69": {
+    "question": "Який алгоритм сортування поданий нижче?",
+    "answers": ["Merge Sort", "Сортування злиттям"],
+    "picture": "https://imgur.com/0YuoDND",
+    "level": 2
+  },
+  "70": {
+    "question": "Скільки мегабайтів у 1 гігабайті?",
+    "answers": ["1000"],
+    "level": 1
+  },
+  "71": {
+    "question": "Скільки мебібайтів у одному гібібіті?",
+    "answers": ["128"],
+    "level": 2
+  },
+  "72": {
+    "question": "Яка частина URL визначає адресу конкретної веб-сторінки?",
+    "answers": ["шлях", "path"],
+    "level": 1
+  },
+  "73": {
+    "question": "Що означає скорочення \"URL\"?",
+    "answers": "Universal Resource Locator",
+    "level": 2
+  },
+  "74": {
+    "question": "Яка технологія дозволяє веб-сайтам визначати і зберігати інформацію про користувачів для покращення персоналізації?",
+    "answers": ["cookies", "куки"],
+    "level": 1
+  },
+  "75": {
+    "question": "Яка є приблизна місткість стандартного CD-ROM диска в мегабайтах?",
+    "answers": [
+      "700",
+      "650",
+      "600"
+    ],
+    "level": 3
+  },
+  "76": {
+    "question": "Як називається програмне забезпечення яким користуються всі програмісти?",
+    "answers": ["IDE", "іде", "git", "гіт"],
+    "level": 2
+  },
+  "77": {
+    "question": "Ну і як без типового питання :D Рік заснування нашого університету?",
+    "answers": ["1816"],
+    "level": 1
+  },
+  "78": {
+    "question": "Ну і як без типового питання :D Рік заснування нашого університету?",
+    "answers": [
+      "1816"
+    ],
+    "level": 2
+  },
+  "79": {
+    "question": "Методологія управління проектами, популярна в розробці програмного забезпечення?",
+    "answers": ["scrum", "скрам"],
+    "level": 1
+  },
+  "80": {
+    "question": "Процес перевірки, дослідження або підтвердження того, чи відповідає якась система, продукт або процес визначеним стандартам, вимогам, специфікаціям або очікуванням.",
+    "answers": ["тестування", "тест", "тестування програмного забезпечення", "верифікація"],
+    "level": 1
+  },
+  "81": {
+    "question": "Це процес покращення якості програмного коду шляхом зміни його структури, організації та читабельності без зміни зовнішньої функціональності програми",
+    "answers": ["рефакторинг", "refactoring"],
+    "level": 2
+  },
+  "82": {
+    "question": "це інтенсивний інноваційний захід, під час якого група розробників, дизайнерів та іноді інших спеціалістів працюють разом, щоб створити функціональний продукт, розв'язати конкретну проблему або реалізувати проект протягом обмеженого часу, який може бути від одного дня до декількох тижнів.",
+    "answers": ["хакатон", "hackathon"],
+    "level": 1
+  },
+  "83": {
+    "question": "Набір інструментів і бібліотек для побудови програм або веб-додатків",
+    "answers": ["фреймворк", "framework"],
+    "level": 1
+  },
+  "84": {
+    "question": "Процес перевірки даних або інформації на відповідність певним правилам, стандартам або критеріям",
+    "answers": ["валідація", "валідація даних", "validation"],
+    "level": 1
+  },
+  "85": {
+    "question": "Процес розгортання або розміщення програмного забезпечення або іншого типу системи (наприклад, веб-сайту, додатку) на серверах або інших обчислювальних пристроях, щоб вони стали доступними для використання користувачами або іншими системами",
+    "answers": ["деплой", "deploy"],
+    "level": 1
+  },
+  "86": {
+    "question": "З якою з структур даних пов'язане дане зображення?",
+    "answers": [
+      "граф",
+      "графи"
+    ],
+    "level": 3,
+    "picture": "https://i.ebayimg.com/00/s/MTI2OVgxNjAw/z/VRsAAOSw85dgbNUz/$_57.JPG"
+  },
+  "87": {
+    "question": "Принцип роботи якої структури даних ілюструє це зображення?",
+    "answers": [
+      "стек",
+      "stack"
+    ],
+    "level": 2,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_j0SVm3tBN_brUkNly8fBVD69iyz_OeQIuQ&usqp=CAU"
+  },
+  "88": {
+    "question": "Яку структуру даних ініціалізовують в С/С++(тай не тільки там) таким чином - int Stud[ ] = {2, 10, 5, 7, 3};",
+    "answers": [
+      "масив",
+      "array"
+    ],
+    "level": 1
+  },
+  "89": {
+    "question": " Дайте відповідь на питання. Чому дорівнює значення змінної і?",
+    "answers": ["2"],
+    "level": 2,
+    "picture": "https://imgur.com/Av6LQUL" 
+  },
+  "90": {
+    "question": " Дайте відповідь на питання. Чому дорівнює значення виразу ?\n(4<5)*2+(2>2+2)",
+    "answers": ["2"],
+    "level": 1
+  },
+  "91": {
+    "question": "Дайте відповідь на питання. Який це закон логіки?",
+    "answers": ["Закон де Моргана"],
+    "level": 1,
+    "picture": "https://imgur.com/h0xZWo4"
+  },
+  "92": {
+    "question": "Дайте відповідь на питання. Чи є тавтологією висловлювання?",
+    "answers": ["Ні"],
+    "level": 2,
+    "picture": "https://imgur.com/gzZgtEk"
+  },
+  "93": {
+    "question": "Чия цитата? \"Ось так виглядає метод ням-ням\" (Напишіть ПІБ повністю)",
+    "answers": [
+      "Філевич Петро Васильович"
+    ],
+    "level": 1
+  },
+  "94": {
+    "question": "Чия цитата? \"Посидимо на лекції, поки не бахне.  Потім спускаємось\" (Напишіть ПІБ повністю)",
+    "answers": [
+      "Журавчак Любов Михайлівна"
+    ],
+    "level": 1
+  },
+  "95": {
+    "question": "Чия цитата? \"Шо ви там, плінтус\" (Напишіть ПІБ повністю)",
+    "answers": [
+      "Ільків Володимир Степанович"
+    ],
+    "level": 1
+  },
+  "96": {
+    "question": "Чия цитата? \"Не ваш рівень\" (Напишіть ПІБ повністю)",
+    "answers": [
+      "Терендій Ольга Володимирівна"
+    ],
+    "level": 1
+  },
+  "97": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "arch", 
+      "арч"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/WPAAnZN"
+  },
+  "98": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "bitbucket"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/V7QbhJV"
+  },
+  "99": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "djinni", 
+      "джинні"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/gOsNY2Z"
+  },
+  "100": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "docker", 
+      "докер"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/wWITL0E"
+  },
+  "101": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "firebase", 
+      "фаербейс"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/hUHHiR2"
+  },
+  "102": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "git", 
+      "гіт"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/a55RW1g"
+  },
+  "103": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "github", 
+      "гітхаб"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/zI7ff26"
+  },
+  "104": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "heroku", 
+      "хероку"
+    ],
+    "level": 2,
+    "picture": "https://imgur.com/5gGOFPW"
+  },
+  "105": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "kubernetes", 
+      "кубернетес"
+    ],
+    "level": 2,
+    "picture": "https://imgur.com/RAppuh5"
+  },
+  "106": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "manjaro", 
+      "манжаро"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/BNp4hK4"
+  },
+  "107": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "netlify"
+    ],
+    "level": 2,
+    "picture": "https://imgur.com/riFL21p"
+  },
+  "108": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "moodle", 
+      "мудл", 
+      "внс", 
+      "vns"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/jZAIlIW"
+  },
+  "109": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "orangePI"
+    ],
+    "level": 2,
+    "picture": "https://imgur.com/7eKYJm7"
+  },
+  "110": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "rasberryPI"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/szCfRUW"
+  },
+  "111": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "react",
+      "реакт"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/uxS0JZQ"
+  },
+  "112": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "ruby",
+      "рубі"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/2mRPYDC"
+  },
+  "113": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "scala",
+      "скала"
+    ],
+    "level": 2,
+    "picture": "https://imgur.com/3gTNvTu"
+  },
+  "114": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "slack",
+      "слак",
+      "хто мені знову пише в слак?"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/ksjuMAi"
+  },
+  "115": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "swift",
+      "свіфт"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/YoNHTgV"
+  },
+  "116": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "vscode",
+      "вскод"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/8ZraSy8"
+  },
+  "117": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "vue",
+      "вью"
+    ],
+    "level": 1,
+    "picture": "https://imgur.com/VNtHMgj"
+  },
+  "118": {
+    "question": "Напишіть кому належить даний логотип, лише одне слово",
+    "answers": [
+      "vite"
+    ],
+    "level": 2,
+    "picture": "https://imgur.com/lbM8Kd2"
   }
 }

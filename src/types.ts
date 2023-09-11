@@ -1,12 +1,12 @@
 export type Task = {
   question: string;
-  answer: string;
+  answers: string[];
   level: number;
   picture?: string;
   cantBeAutoChecked?: boolean;
 };
 
-export type TaskDTO = Omit<Task, "answer"> & { id: string };
+export type TaskDTO = Omit<Task, "answers"> & { id: string };
 
 export type Team = {
   name: string;

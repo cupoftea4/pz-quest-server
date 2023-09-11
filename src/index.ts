@@ -105,7 +105,7 @@ app.post("/skip", (req: Request, res: Response) => {
     return res.status(500).send({ message: "Something went wrong! " + e });
   }
   const hint = hints[team.path][team.currentTask];
-  res.send({ hint, status: "skipped" });
+  res.send({ hint, status: "skipped", score: team.score });
 });
 
 app.post("/:tokenWithTaskNum", (req: Request, res: Response) => {
@@ -125,6 +125,7 @@ app.post("/:tokenWithTaskNum", (req: Request, res: Response) => {
       return res.send({
         message: "Nice try! You have got 3 points for cheating! Don't do it again!",
         status: "cheated",
+        score: team.score,
       });
     }
     return res
