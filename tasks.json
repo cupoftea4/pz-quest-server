@@ -1,0 +1,80 @@
+{
+  "1": {
+    "question": "Convert 1011 to decimal",
+    "answer": "11",
+    "level": 1
+  },
+  "2": {
+    "question": "Convert 14 to binary",
+    "answer": "1110",
+    "level": 1,
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/IOS_14_Logo.png"
+  },
+  "3": {
+    "question": "Make a photo of your pet",
+    "answer": "",
+    "cantBeAutoChecked": true,
+    "level": 2,
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/IOS_14_Logo.png"
+  },
+  "4": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "assembler",
+    "level": 2,
+    "picture": "/images/languages/1.png"
+  },
+  "5": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "c#",
+    "level": 1,
+    "picture": "/images/languages/2.png"
+  },
+  "6": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "c++",
+    "level": 1,
+    "picture": "/images/languages/3.png"
+  },
+  "7": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "go",
+    "level": 2,
+    "picture": "/images/languages/4.png"
+  },
+  "8": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "java",
+    "level": 1,
+    "picture": "/images/languages/5.png"
+  },
+  "9": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "lua",
+    "level": 2,
+    "picture": "/images/languages/6.png"
+  },
+  "10": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "python",
+    "level": 1,
+    "picture": "/images/languages/7.png"
+  },
+  "11": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "ruby",
+    "level": 2,
+    "picture": "/images/languages/8.png"
+  },
+  "12": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "rust",
+    "level": 2,
+    "picture": "/images/languages/9.png"
+  },
+  "13": {
+    "question": "Вгадай мову по фрагменту коду.",
+    "answer": "scala",
+    "level": 2,
+    "picture": "/images/languages/10.png"
+  }
+}
