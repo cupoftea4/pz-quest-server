@@ -10,6 +10,8 @@ import {
   getPointsForCheating, 
   getTeam, 
   hasWon, 
+  logAnswer,
+  logWinners, 
   newTeam, 
   saveTeamChanges, 
   updateTasks, 
@@ -65,10 +67,16 @@ app.post("/check-answer", (req: Request, res: Response) => {
   if (!teamName) return res.status(400).send({ message: "No team name!" });
   console.log("Checking answer for " + teamName + " " + answer);
   const team = getTeam(teamName);
+
   if (checkAnswer(team, answer, isSimple)) {
     const isLastLevel = team.currentTask === TASKS_COUNT;
     team.score += isSimple ? 10 : isLastLevel ? 50 : 20;
+
+    logAnswer(teamName, team.currentTask, answer, team.score);
+
     if (team.currentTask === TASKS_COUNT) {
+      logWinners(teamName, team.score);
+
       return res.send({ message: "You have won!", score: team.score, status: "won" });
     }
     try {

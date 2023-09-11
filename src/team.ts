@@ -2,6 +2,7 @@ import { readFileSync, readdirSync, writeFile } from "fs";
 import { compareToHash, generateHash } from "./general";
 import { Task, TaskDTO, Team } from "./types";
 import { PATH_COUNT, TASKS_COUNT, tasks } from "./mock-data";
+import fs from 'fs';
 
 export const newTeam = (teamName: string): Team => {
   const tasksIds = Object.keys(tasks);
@@ -26,6 +27,26 @@ export const checkAnswer = (data: Team, answer: string, isSimple: boolean): bool
 export const hasWon = (data: Team): boolean => {
   return data.currentTask === TASKS_COUNT;
 };
+
+export const logAnswer = (teamName: string, taskId: number, answer : string, score: number) => {
+  const logEntry = `[${new Date().toISOString()}] name: ${teamName} taskId: ${taskId} answer: ${answer} totalScore: ${score}\n`;
+  
+  fs.appendFile("AnswersLog.txt", logEntry,  (err)=>{
+    if (err) {
+      console.error(`Error while trying to log: ${err}`);
+    }
+  });
+}
+
+export const logWinners = (teamName: string, score: number) => {
+  const logEntry = `[${new Date().toISOString()}] name: ${teamName} finalScore: ${score}\n`;
+  
+  fs.appendFile("WinnersLog.txt", logEntry,  (err)=>{
+    if (err) {
+      console.error(`Error while trying to log: ${err}`);
+    }
+  });
+}
 
 export const getCurrentTasks = (data: Team): { simple: TaskDTO, hard: TaskDTO} => {
   const taskIndex = data.currentTask - 1;
