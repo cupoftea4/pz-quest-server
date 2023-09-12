@@ -69,13 +69,17 @@ app.post("/check-answer", (req: Request, res: Response) => {
   if (!teamName) return res.status(400).send({ message: "No team name!" });
   console.log("Checking answer for " + teamName + " " + answer);
   const team = getTeam(teamName);
+  if (!team) return res.status(400).send({ message: "No such team!" });
+
+  const taskId = isSimple
+    ? team.simpleTasks[team.currentTask - 1]
+    : team.hardTasks[team.currentTask - 1];
 
   if (checkAnswer(team, answer, isSimple)) {
     const isLastLevel = team.currentTask === TASKS_COUNT;
     team.score += isSimple ? 10 : isLastLevel ? 50 : 20;
 
-    const taskId = isSimple ? team.simpleTasks[team.currentTask - 1] : team.hardTasks[team.currentTask - 1];
-    logAnswer(teamName, taskId, answer, team.score);
+    logAnswer(teamName, taskId, answer, team.score, true);
 
     if (team.currentTask === TASKS_COUNT) {
       logWinners(teamName, team.score);
@@ -90,6 +94,7 @@ app.post("/check-answer", (req: Request, res: Response) => {
     res.send({ message: "Correct answer!", score: team.score, hint, status: "correct" });
   } else {
     res.send({ message: "Wrong answer!", status: "wrong" });
+    logAnswer(teamName, taskId, answer, team.score, false);
   }
 });
 
@@ -98,6 +103,7 @@ app.post("/skip", (req: Request, res: Response) => {
   if (!teamName) return res.status(400).send({ message: "No team name!" });
   console.log("Skipping tasks for " + teamName );
   const team = getTeam(teamName);
+  if (!team) return res.status(400).send({ message: "No such team!" });
   if (team.currentTask === TASKS_COUNT) {
     return res.send({ message: "You have already won!", score: team.score, status: "won" });
   }
@@ -118,6 +124,8 @@ app.post("/:tokenWithTaskNum", (req: Request, res: Response) => {
   if (!token) return res.status(400).send({ message: "Please scan QR code!" });
 
   const team = getTeam(teamName);
+  if (!team) return res.status(400).send({ message: "No such team!" });
+
   if (hasWon(team))
     return res.send({ message: "You already have won!", score: team.score, status: "won" });
 

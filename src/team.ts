@@ -37,10 +37,14 @@ export const getCurrentTasks = (data: Team): { simple: TaskDTO, hard: TaskDTO} =
   return { simple: simpleTaskDTO, hard: hardTaskDTO };
 };
 
-export const getTeam = (teamName: string): Team => {
-  const data = readFileSync(teamFile(teamName));;
-  const team = JSON.parse(data.toString()) as Team;
-  return team;
+export const getTeam = (teamName: string): Team | null => {
+  try {
+    const data = readFileSync(teamFile(teamName));
+    const team = JSON.parse(data.toString()) as Team;
+    return team satisfies Team;
+  } catch (e) {
+    return null;
+  }
 };
 
 export const saveTeamChanges = (data: Team) => {
