@@ -170,7 +170,7 @@
   "30": {
     "question": "з якого шістнадцяткового числа починається будь-який java .class файл?",
     "answers": ["CAFEBABE", "0xCAFEBABE"],
-    "level": 2
+    "level": 3
   }, 
   "31": {
     "question": "Розшифруйте дану абревіатуру ?\n HTTP",
@@ -232,11 +232,6 @@
     "answers": ["драйвери", "драйвер", "drivers", "driver", "драйвера"],
     "level": 1
   },
-  "43": {
-    "question": "Що означає це сленгове слово ?\n Конфа",
-    "answers": ["конфігурація", "конфіг", "config", "configuration", "конференція"],
-    "level": 1
-  },
   "44": {
     "question": "Що означає це сленгове слово ?\n Веслярі",
     "answers": ["програмісти", "програміст", "programmers", "programmer", "працівники галери"],
@@ -255,11 +250,6 @@
   "47": {
     "question": "Що означає це сленгове слово ?\n Лінк",
     "answers": ["Посилання"],
-    "level": 1
-  },
-  "48": {
-    "question": "Що означає це сленгове слово ?\n Мило",
-    "answers": ["Електронна пошта", "email", "e-mail"],
     "level": 1
   },
   "49": {
@@ -294,15 +284,6 @@
       "!=",
       "is"
     ]
-  },
-  "54": {
-    "question": "Яка є приблизна місткість стандартного CD-ROM диска в мегабайтах?",
-    "answers": [
-      "700",
-      "650",
-      "600"
-    ],
-    "level": 3
   },
   "55": {
     "question": "Як називаються віруси, середовищем створення яких є файли з розширенням .doc, .xls, тощо?",
@@ -650,7 +631,8 @@
   "109": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
     "answers": [
-      "orangePI"
+      "orangePI",
+      "orange pi"
     ],
     "level": 2,
     "picture": "https://i.imgur.com/7eKYJm7.png"
@@ -658,7 +640,8 @@
   "110": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
     "answers": [
-      "rasberryPI"
+      "raspberryPI",
+      "raspberry pi"
     ],
     "level": 1,
     "picture": "https://i.imgur.com/szCfRUW.png"
@@ -695,7 +678,8 @@
     "answers": [
       "slack",
       "слак",
-      "хто мені знову пише в слак?"
+      "хто мені знову пише в слак?",
+      "salesforce"
     ],
     "level": 1,
     "picture": "https://i.imgur.com/ksjuMAi.png"
@@ -734,5 +718,29 @@
     ],
     "level": 2,
     "picture": "https://i.imgur.com/lbM8Kd2.png"
+  },
+  "119": {
+    "question": "Ми заховали приховане послання у фотографії. Наприклад, праве фото заховали у лівому. Ваше завдання його віднайти, дописавши код у VS. Завантажте архів за посиланням, створіть проєкт у Visual Studio, та перемістіть у папку проєкту файли з архіву. Більше деталей у файлі Source.c Посилання: https: //drive.google.com/file/d/16l6g6CP7LMc6PCwq91eF37d8n77EHoaF/view?usp=sharing",
+    "answers": [
+      "Муха"
+    ],
+    "level": 3,
+    "picture": "https://imgur.com/a/9OwY5DF"
+  },
+  "120": {
+    "question": "Ми заховали приховане послання у фотографії. Наприклад, праве фото заховали у лівому. Ваше завдання його віднайти, дописавши код у VS. Завантажте архів за посиланням, створіть проєкт у Visual Studio, та перемістіть у папку проєкту файли з архіву. Більше деталей у файлі Source.c Посилання: https: //drive.google.com/file/d/1iFTYRDEwTqaKVswMVH1JOChPHm8l7EmO/view?usp=sharing",
+    "answers": [
+      "Круасани"
+    ],
+    "level": 3,
+    "picture": "https://imgur.com/a/9OwY5DF"
+  },
+  "121": { 
+    "question": "Ми заховали приховане послання у фотографії. Наприклад, праве фото заховали у лівому. Ваше завдання його віднайти, дописавши код у VS. Завантажте архів за посиланням, створіть проєкт у Visual Studio, та перемістіть у папку проєкту файли з архіву. Більше деталей у файлі Source.c Посилання: https: //drive.google.com/file/d/1XaX7eL59mIPUBA0TYxwJYXkE9p0qGyMn/view?usp=sharing",
+    "answers": [
+      "Повторка"
+    ],
+    "level": 3,
+    "picture": "https://imgur.com/a/9OwY5DF"
   }
 }
