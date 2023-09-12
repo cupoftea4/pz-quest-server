@@ -129,7 +129,7 @@ app.post("/:tokenWithTaskNum", (req: Request, res: Response) => {
   if (hasWon(team))
     return res.send({ message: "You already have won!", score: team.score, status: "won" });
 
-  const isCheating = token !== generateToken(+task, team.path);
+  const isCheating = +task > team.currentTask;
   if (isCheating) {
     if (getPointsForCheating(team)) {
       return res.send({
