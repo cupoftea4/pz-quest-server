@@ -137,13 +137,13 @@
     "question": "Розгадай загадане слово",
     "answers": ["наука"],
     "level": 2,
-    "picture": "https://i.imgur.com/a/C7CX8.pngFy"
+    "picture": "https://i.imgur.com/vkY50Ar.png"
   },
   "25": {
     "question": "Розгадай загадане слово",
     "answers": ["квасоля"],
     "level": 1,
-    "picture": "https://i.imgur.com/a/JHG60.pngyi"
+    "picture": "https://i.imgur.com/0jSjCgR.png"
   },
   "26": {
     "question": "В якому рядку цього коду є помилка?",
@@ -165,7 +165,7 @@
     "question": "Що виведе цей код?",
     "answers": ["15"],
     "level": 2,
-    "picture": "https://i.i.imgur.com/FLrRIVz.png.png"
+    "picture": "https://i.imgur.com/FLrRIVz.png"
   },
   "30": {
     "question": "з якого шістнадцяткового числа починається будь-який java .class файл?",
@@ -347,11 +347,6 @@
   "63": {
     "question": "Особливість, унікальна характеристика чи функціонал",
     "answers": ["фіча", "фічі", "feature"],
-    "level": 1
-  },
-  "64": {
-    "question": "Що таке баг?",
-    "answers": ["помилка", "помилки"],
     "level": 1
   },
   "65": {
