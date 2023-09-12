@@ -66,6 +66,7 @@ app.post("/register", (req: Request, res: Response) => {
 
 app.post("/check-answer", (req: Request, res: Response) => {
   const { teamName, answer, isSimple } = req.body;
+  if (answer.length > 100) return res.status(400).send({ message: "Answer is too long!" });
   if (!teamName) return res.status(400).send({ message: "No team name!" });
   console.log("Checking answer for " + teamName + " " + answer);
   const team = getTeam(teamName);
@@ -77,7 +78,7 @@ app.post("/check-answer", (req: Request, res: Response) => {
 
   if (checkAnswer(team, answer, isSimple)) {
     const isLastLevel = team.currentTask === TASKS_COUNT;
-    team.score += isSimple ? 10 : isLastLevel ? 50 : 20;
+    team.score += isSimple ? 10 : isLastLevel ? 40 : 20;
 
     logAnswer(teamName, taskId, answer, team.score, true);
 
