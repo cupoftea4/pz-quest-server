@@ -60,7 +60,7 @@ app.post("/register", (req: Request, res: Response) => {
   }
   const team = newTeam(teamName);
   saveTeamChanges(team);
-  const hint = hints[team.path][team.currentTask];
+  const hint = hints[team.path][0];
   res.send({ message: `Registered ${teamName}!`, path: team.path, hint});
 });
 
