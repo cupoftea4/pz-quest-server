@@ -38,73 +38,73 @@
     "question": "Що виведеться в результаті виконання коду?",
     "answers": ["12209"],
     "level": 2,
-    "picture": "https://imgur.com/yqoQIzd"
+    "picture": "https://i.imgur.com/yqoQIzd.png"
   },
   "8": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["python", "пайтон"],
     "level": 1,
-    "picture": "https://imgur.com/KCYvQO3"
+    "picture": "https://i.imgur.com/KCYvQO3.png"
   },
   "9": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["ruby", "рубі"],
     "level": 2,
-    "picture": "https://imgur.com/MSvJwRd"
+    "picture": "https://i.imgur.com/MSvJwRd.png"
   },
   "10": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["C++", "cpp"],
     "level": 1,
-    "picture": "https://imgur.com/xjv7RpU"
+    "picture": "https://i.imgur.com/xjv7RpU.png"
   },
   "11": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["lua"],
     "level": 2,
-    "picture": "https://imgur.com/h8P4SH8"
+    "picture": "https://i.imgur.com/h8P4SH8.png"
   },
   "12": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["c#", "csharp"],
     "level": 1,
-    "picture": "https://imgur.com/G1Nhcrd"
+    "picture": "https://i.imgur.com/G1Nhcrd.png"
   },
   "13": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["java"],
     "level": 1,
-    "picture": "https://imgur.com/oG0VRgp"
+    "picture": "https://i.imgur.com/oG0VRgp.png"
   },
   "14": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["assembler", "asm"],
     "level": 1,
-    "picture": "https://imgur.com/5rsFRiN"
+    "picture": "https://i.imgur.com/5rsFRiN.png"
   },
   "15": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["go", "golang"],
     "level": 2,
-    "picture": "https://imgur.com/4ChrsE0"
+    "picture": "https://i.imgur.com/4ChrsE0.png"
   },
   "16": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["scala"],
     "level": 2,
-    "picture": "https://imgur.com/fRHNn2q"
+    "picture": "https://i.imgur.com/fRHNn2q.png"
   },
   "17": {
     "question":"Вгадай мову по фрагменту коду",
     "answers": ["rust"],
     "level": 2,
-    "picture": "https://imgur.com/AJVd2el"
+    "picture": "https://i.imgur.com/AJVd2el.png"
   },
   "18": {
     "question": "Вгадай мову по фрагменту коду",
     "answers": ["php", "пхп"],
     "level": 1,
-    "picture": "https://imgur.com/U1rRfkC"
+    "picture": "https://i.imgur.com/U1rRfkC.png"
   },
   "19": {
     "question": "Програміст який писав розклад сплутав кодування та тепер всі назви кабінетів та корпусів зашифровані в двійковій та вісімковій системах числення, розшифруйте номер аудиторії 501 ауд. 0001 кр.",
@@ -125,31 +125,31 @@
     "question": "Лабораторні можуть бути простими, а ось звіти не завжди, напишіть вимоги до звіту в такому порядку назва шрифту, його розмір та міжрядковий інтервал всі ці параметри вказуються через пробіл, наприклад: montserrat 11 0.5",
     "answers": ["times new roman 14 1.5", "times new roman 14 1,5"],
     "level": 1,
-    "picture": "https://imgur.com/uq2UrPR"
+    "picture": "https://i.imgur.com/uq2UrPR.png"
   },
   "23": {
     "question": "Лабораторні можуть бути простими, а ось звіти не завжди, напишіть вимоги до звіту в такому порядку назва шрифта, його розмір, міжрядковий інтервал, відступи в мм. (ліво, право, верх, низ), тип вирівнювання всі ці параметри вказуються через пробіл, наприклад: montserrat 11 0.5 і т.д.",
     "answers": ["times new roman 14 1.5 30 10 20 20 за шириною", "times new roman 14 1,5 30 10 20 20 за шириною"],
     "level": 2,
-    "picture": "https://imgur.com/uq2UrPR"
+    "picture": "https://i.imgur.com/uq2UrPR.png"
   },
   "24": {
     "question": "Розгадай загадане слово",
     "answers": ["наука"],
     "level": 2,
-    "picture": "https://imgur.com/a/C7CX8Fy"
+    "picture": "https://i.imgur.com/a/C7CX8.pngFy"
   },
   "25": {
     "question": "Розгадай загадане слово",
     "answers": ["квасоля"],
     "level": 1,
-    "picture": "https://imgur.com/a/JHG60yi"
+    "picture": "https://i.imgur.com/a/JHG60.pngyi"
   },
   "26": {
     "question": "В якому рядку цього коду є помилка?",
     "answers": ["8", "восьмому"],
     "level": 2,
-    "picture": "https://imgur.com/ez6M2vJ"
+    "picture": "https://i.imgur.com/ez6M2vJ.png"
   },
   "27":{
     "question": "Що буде результатом виконання операції 'push' на стеку, якщо він вже заповнений?",
@@ -165,7 +165,7 @@
     "question": "Що виведе цей код?",
     "answers": ["15"],
     "level": 2,
-    "picture": "https://i.imgur.com/FLrRIVz.png"
+    "picture": "https://i.i.imgur.com/FLrRIVz.png.png"
   },
   "30": {
     "question": "з якого шістнадцяткового числа починається будь-який java .class файл?",
@@ -298,9 +298,9 @@
   "54": {
     "question": "Яка є приблизна місткість стандартного CD-ROM диска в мегабайтах?",
     "answers": [
-      "700 МБ",
-      "650МБ",
-      "600МБ"
+      "700",
+      "650",
+      "600"
     ],
     "level": 3
   },
@@ -372,13 +372,13 @@
   "68": {
     "question": "Який алгоритм сортування поданий нижче?",
     "answers": ["Bubble Sort", "Сортування бульбашкою"],
-    "picture": "https://imgur.com/fxmf67T",
+    "picture": "https://i.imgur.com/fxmf67T.png",
     "level": 2
   },
   "69": {
     "question": "Який алгоритм сортування поданий нижче?",
     "answers": ["Merge Sort", "Сортування злиттям"],
-    "picture": "https://imgur.com/0YuoDND",
+    "picture": "https://i.imgur.com/0YuoDND.png",
     "level": 2
   },
   "70": {
@@ -497,7 +497,7 @@
     "question": " Дайте відповідь на питання. Чому дорівнює значення змінної і?",
     "answers": ["2"],
     "level": 2,
-    "picture": "https://imgur.com/Av6LQUL" 
+    "picture": "https://i.imgur.com/Av6LQUL.png" 
   },
   "90": {
     "question": " Дайте відповідь на питання. Чому дорівнює значення виразу ?\n(4<5)*2+(2>2+2)",
@@ -508,13 +508,13 @@
     "question": "Дайте відповідь на питання. Який це закон логіки?",
     "answers": ["Закон де Моргана"],
     "level": 1,
-    "picture": "https://imgur.com/h0xZWo4"
+    "picture": "https://i.imgur.com/h0xZWo4.png"
   },
   "92": {
     "question": "Дайте відповідь на питання. Чи є тавтологією висловлювання?",
     "answers": ["Ні"],
     "level": 2,
-    "picture": "https://imgur.com/gzZgtEk"
+    "picture": "https://i.imgur.com/gzZgtEk.png"
   },
   "93": {
     "question": "Чия цитата? \"Ось так виглядає метод ням-ням\" (Напишіть ПІБ повністю)",
@@ -551,7 +551,7 @@
       "арч"
     ],
     "level": 1,
-    "picture": "https://imgur.com/WPAAnZN"
+    "picture": "https://i.imgur.com/WPAAnZN.png"
   },
   "98": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -559,7 +559,7 @@
       "bitbucket"
     ],
     "level": 1,
-    "picture": "https://imgur.com/V7QbhJV"
+    "picture": "https://i.imgur.com/V7QbhJV.png"
   },
   "99": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -568,7 +568,7 @@
       "джинні"
     ],
     "level": 1,
-    "picture": "https://imgur.com/gOsNY2Z"
+    "picture": "https://i.imgur.com/gOsNY2Z.png"
   },
   "100": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -577,7 +577,7 @@
       "докер"
     ],
     "level": 1,
-    "picture": "https://imgur.com/wWITL0E"
+    "picture": "https://i.imgur.com/wWITL0E.png"
   },
   "101": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -586,7 +586,7 @@
       "фаербейс"
     ],
     "level": 1,
-    "picture": "https://imgur.com/hUHHiR2"
+    "picture": "https://i.imgur.com/hUHHiR2.png"
   },
   "102": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -595,7 +595,7 @@
       "гіт"
     ],
     "level": 1,
-    "picture": "https://imgur.com/a55RW1g"
+    "picture": "https://i.imgur.com/a55RW1g.png"
   },
   "103": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -604,7 +604,7 @@
       "гітхаб"
     ],
     "level": 1,
-    "picture": "https://imgur.com/zI7ff26"
+    "picture": "https://i.imgur.com/zI7ff26.png"
   },
   "104": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -613,7 +613,7 @@
       "хероку"
     ],
     "level": 2,
-    "picture": "https://imgur.com/5gGOFPW"
+    "picture": "https://i.imgur.com/5gGOFPW.png"
   },
   "105": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -622,7 +622,7 @@
       "кубернетес"
     ],
     "level": 2,
-    "picture": "https://imgur.com/RAppuh5"
+    "picture": "https://i.imgur.com/RAppuh5.png"
   },
   "106": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -631,7 +631,7 @@
       "манжаро"
     ],
     "level": 1,
-    "picture": "https://imgur.com/BNp4hK4"
+    "picture": "https://i.imgur.com/BNp4hK4.png"
   },
   "107": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -639,7 +639,7 @@
       "netlify"
     ],
     "level": 2,
-    "picture": "https://imgur.com/riFL21p"
+    "picture": "https://i.imgur.com/riFL21p.png"
   },
   "108": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -650,7 +650,7 @@
       "vns"
     ],
     "level": 1,
-    "picture": "https://imgur.com/jZAIlIW"
+    "picture": "https://i.imgur.com/jZAIlIW.png"
   },
   "109": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -658,7 +658,7 @@
       "orangePI"
     ],
     "level": 2,
-    "picture": "https://imgur.com/7eKYJm7"
+    "picture": "https://i.imgur.com/7eKYJm7.png"
   },
   "110": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -666,7 +666,7 @@
       "rasberryPI"
     ],
     "level": 1,
-    "picture": "https://imgur.com/szCfRUW"
+    "picture": "https://i.imgur.com/szCfRUW.png"
   },
   "111": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -675,7 +675,7 @@
       "реакт"
     ],
     "level": 1,
-    "picture": "https://imgur.com/uxS0JZQ"
+    "picture": "https://i.imgur.com/uxS0JZQ.png"
   },
   "112": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -684,7 +684,7 @@
       "рубі"
     ],
     "level": 1,
-    "picture": "https://i.imgur.com/2mRPYDC.png"
+    "picture": "https://i.i.imgur.com/2mRPYDC.png.png"
   },
   "113": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -693,7 +693,7 @@
       "скала"
     ],
     "level": 2,
-    "picture": "https://imgur.com/3gTNvTu"
+    "picture": "https://i.imgur.com/3gTNvTu.png"
   },
   "114": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -703,7 +703,7 @@
       "хто мені знову пише в слак?"
     ],
     "level": 1,
-    "picture": "https://imgur.com/ksjuMAi"
+    "picture": "https://i.imgur.com/ksjuMAi.png"
   },
   "115": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -712,7 +712,7 @@
       "свіфт"
     ],
     "level": 1,
-    "picture": "https://imgur.com/YoNHTgV"
+    "picture": "https://i.imgur.com/YoNHTgV.png"
   },
   "116": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -721,7 +721,7 @@
       "вскод"
     ],
     "level": 1,
-    "picture": "https://imgur.com/8ZraSy8"
+    "picture": "https://i.imgur.com/8ZraSy8.png"
   },
   "117": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -730,7 +730,7 @@
       "вью"
     ],
     "level": 1,
-    "picture": "https://imgur.com/VNtHMgj"
+    "picture": "https://i.imgur.com/VNtHMgj.png"
   },
   "118": {
     "question": "Напишіть кому належить даний логотип, лише одне слово",
@@ -738,6 +738,6 @@
       "vite"
     ],
     "level": 2,
-    "picture": "https://imgur.com/lbM8Kd2"
+    "picture": "https://i.imgur.com/lbM8Kd2.png"
   }
 }
