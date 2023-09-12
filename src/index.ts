@@ -72,6 +72,10 @@ app.post("/check-answer", (req: Request, res: Response) => {
   const team = getTeam(teamName);
   if (!team) return res.status(400).send({ message: "No such team!" });
 
+  if (team.currentAttemptNumber >= 10) {
+    return res.status(400).send({ message: "You have exceeded the number of attempts! Now you can only skip the question" });
+  }
+
   const taskId = isSimple
     ? team.simpleTasks[team.currentTask - 1]
     : team.hardTasks[team.currentTask - 1];
@@ -80,7 +84,8 @@ app.post("/check-answer", (req: Request, res: Response) => {
     const isLastLevel = team.currentTask === TASKS_COUNT;
     team.score += isSimple ? 10 : isLastLevel ? 40 : 20;
 
-    logAnswer(teamName, taskId, answer, team.score, true);
+    logAnswer(teamName, taskId, answer, team.score, 
+      tasks[taskId].cantBeAutoChecked ? "unchecked" : "correct");
 
     if (team.currentTask === TASKS_COUNT) {
       logWinners(teamName, team.score);
@@ -95,7 +100,9 @@ app.post("/check-answer", (req: Request, res: Response) => {
     res.send({ message: "Correct answer!", score: team.score, hint, status: "correct" });
   } else {
     res.send({ message: "Wrong answer!", status: "wrong" });
-    logAnswer(teamName, taskId, answer, team.score, false);
+    team.currentAttemptNumber++;
+    saveTeamChanges(team);
+    logAnswer(teamName, taskId, answer, team.score, 'incorrect');
   }
 });
 

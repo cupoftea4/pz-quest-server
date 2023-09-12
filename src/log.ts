@@ -7,10 +7,10 @@ export const logAnswer = (
   taskId: string,
   answer: string,
   score: number,
-  isCorrect: boolean
+  status: "correct" | "incorrect" | "unchecked",
 ) => {
   const logEntry = `[${new Date().toISOString()}] ${teamName} ${taskId} "${answer}" ${score} ${
-    isCorrect ? "✅" : "❌"
+    status === "correct" ? "✅" : status === "incorrect" ? "❌" : "⚠️"
   }\n`;
 
   const logPath = path.join(LOGS_PATH + "/answers.log");

@@ -1,8 +1,7 @@
 import { readFileSync, readdirSync, writeFile } from "fs";
-import { compareToHash, generateHash } from "./general";
+import { generateHash } from "./general";
 import { Task, TaskDTO, Team } from "./types";
 import { PATH_COUNT, TASKS_COUNT, tasks } from "./mock-data";
-import fs from 'fs';
 
 export const newTeam = (teamName: string): Team => {
   const tasksIds = Object.keys(tasks);
@@ -14,6 +13,7 @@ export const newTeam = (teamName: string): Team => {
     hardTasks: [generateNewHardTask(tasksIds)],
     score: 0,
     gotPointsForCheating: false,
+    currentAttemptNumber: 0,
   } satisfies Team;
 };
 
@@ -96,6 +96,7 @@ export const updateTasks = (data: Team) => {
     throw new Error("Something went wrong!");
   }
   const newTeam = newWithNextTask(data);
+  newTeam.currentAttemptNumber = 0;
   saveTeamChanges(newTeam);
   return newTeam;
 };

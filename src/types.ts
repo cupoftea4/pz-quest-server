@@ -16,4 +16,5 @@ export type Team = {
   hardTasks: string[];
   score: number;
   gotPointsForCheating: boolean;
+  currentAttemptNumber: number;
 };
