@@ -35,8 +35,14 @@ app.use(express.json());
 app.use(cors())
 const port = process.env.PORT;
 
+export const LOGS_PATH = "logs";
+
 if (!existsSync('teams')) {
   mkdirSync('teams');
+}
+
+if (!existsSync(LOGS_PATH)) {
+  mkdirSync(LOGS_PATH);
 }
 
 app.get("/gen-tokens/:path", (req: Request, res: Response) => {
@@ -54,10 +60,7 @@ app.post("/register", (req: Request, res: Response) => {
   }
   const team = newTeam(teamName);
   saveTeamChanges(team);
-  console.log("Registered " + teamName);
-  console.log(team)
-  console.log(hints)
-  const hint = hints[team.path][team.currentTask];
+  const hint = hints[team.path][0];
   res.send({ message: `Registered ${teamName}!`, path: team.path, hint});
 });
 
@@ -76,7 +79,6 @@ app.post("/check-answer", (req: Request, res: Response) => {
 
     if (team.currentTask === TASKS_COUNT) {
       logWinners(teamName, team.score);
-
       return res.send({ message: "You have won!", score: team.score, status: "won" });
     }
     try {
@@ -146,6 +148,9 @@ app.post("/:tokenWithTaskNum", (req: Request, res: Response) => {
     status: "playing",
   } satisfies TaskResponse);
 });
+
+
+app.use("/cats_logs", express.static(LOGS_PATH));
 
 app.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
