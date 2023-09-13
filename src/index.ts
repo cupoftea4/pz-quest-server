@@ -132,7 +132,7 @@ app.post("/:tokenWithTaskNum", (req: Request, res: Response) => {
   if (!token) return res.status(400).send({ message: "Please scan QR code!" });
 
   const team = getTeam(teamName);
-  if (!team) return res.status(400).send({ message: "No such team!" });
+  if (!team) return res.status(400).send({ message: "Team not found" });
 
   if (hasWon(team))
     return res.send({ message: "You already have won!", score: team.score, status: "won" });
